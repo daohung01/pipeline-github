@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('hello') {
             steps {
-                echo "Hello World!-v2"
+                echo "Hello Dao Ngoc Hung-v2"
                 git 'https://github.com/daohung01/pipeline-github'
             }
         }
